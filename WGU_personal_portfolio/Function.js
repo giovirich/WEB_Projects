@@ -30,9 +30,8 @@ function showDates(){
  }
 
 // Today's date
-function getCurrentDate(){
-    var fecha = document.getElementById("currentDate");
-    if (fecha)
-    fecha.textContent = "Current Date: " + new Date().toLocaleDateString();
+// Today's date
 
-}
+var fecha = document.getElementById("currentDate");
+fecha.textContent = "Current Date: " + new Date().toLocaleDateString();
+
