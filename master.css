@@ -4,8 +4,24 @@
     --header-color: #d2ff3d;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
-    font-family:Arial, Helvetica, sans-serif;
+    padding: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    font-family: "Archivo", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100dvh;
+}
+
+img{
+    max-inline-size: 60%;
 }
 
 .website_cover_parent{
@@ -19,7 +35,6 @@
 
 #website_cover{
     padding-bottom: 3rem;
-    width: 60%;
     height: auto;
     cursor: pointer;
 }
@@ -53,7 +68,7 @@ body {
     line-height: 1.6;
 }
 
-.contact_me{
+/* .contact_me{
     display: flex;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -121,12 +136,11 @@ body {
 .contact_me #submitBtn:hover {
     background-color: #d15a1b;
     color: #15fb52;
-}
+} */
 
 .project_table{
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 20px;
     font-size: 16px;
 }
 
@@ -148,7 +162,8 @@ body {
     margin: 0 auto;
     border-spacing: 1.5rem;
     border-collapse: separate;
-    width: 60%;
+    width: 80%;
+    border-radius: 40px;
 }
 
 .project_table th{
@@ -159,7 +174,7 @@ body {
     padding: 5px;
 }
 
-.project_table tr:nth-child(2n+2){
+.project_table tr:nth-child(1n+2){
     background-color: #dcef90;
 }
 
