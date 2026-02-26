@@ -135,7 +135,7 @@ footer{
     justify-content: end;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 600px) {
     body{
         margin: 0;
         padding: 5px;
@@ -188,4 +188,5 @@ footer{
         margin-top: 30px;
     }
 }
+
 
