@@ -3,8 +3,8 @@ let currentIndex = 0;
 let randomColor1;
 let randomColor2;
 let randomColor3;
-let currentRotation;
-let reverseRotation;
+let currentRotation = 0;
+let reverseRotation = 0;
 let textChange = document.getElementById("textChange");
 let buttonContainer = document.getElementsByClassName("buttonContainer");
 
@@ -96,4 +96,5 @@ for(let i = 0; i < dukeScores.length; i++){
         winningTeam.push("N");
     }
 };
+
 
