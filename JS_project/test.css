@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    font-family: "Archivo", sans-serif;
+}
+
+/* body { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+} */
+
+body{
+    transition: background-color 0.5s ease, transform 0.5s ease; 
+}
+
+.bodyHeader{
+    display: flex;
+    justify-content: center;
+    height: 10px;
+}
+
+#textChange{
+    margin-top: 150px;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100dvh;
+    align-items: center;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr;
+    box-sizing: border-box;
+    row-gap: 20px;
+}
+
+.buttons > button{
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.5s ease;
+}
+
+.buttons p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons button:nth-child(1){
+    background: linear-gradient(45deg, #0ce2be, #dff72c);
+}
+.buttons button:nth-child(2){
+    background: linear-gradient(45deg, #f6358f, #ffaa01);
+}
+.buttons button:nth-child(3){
+    background: linear-gradient(45deg, #bbe20c, #4cc1f0);
+}
+
+
+
